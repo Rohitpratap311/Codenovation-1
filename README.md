@@ -15,6 +15,7 @@ The main idea behind making these test cases public is to help anyone in debuggi
   <li> All the test case are available here.</li>
   <li> Custom test cases can also be generated.</li>
   <li> You can write a validator to copamare your output with correct output.</li>
+  <li> All the solutions and explainations are available at <a href="https://discuss.codechef.com/t/hbtu-cp-contest-1-codenovation/82664"> Editorial</a>.
 </ul>
 
 <strong>Thanks</strong>
