@@ -1,23 +1,20 @@
-# CODEFORCES
-This repository contains the problems soleved by me at <a href="https://codeforces.com/">Codeforces</a> <br>
+# Codenovation-1
+This repository contains the all the problems and solutions of the the contest <a href="https://www.codechef.com/HBTU2020">CODENOVATION-1</a>
+<br><br>
+This is the <strong>first</strong> official contest hosted by <strong>HBTU</strong> at <strong>CodeChef</strong> organised by <a href="https://www.codechef.com/campus_chapter/HBTU">CodeChef HBTU Chapter</a>
+<br><br>
+You can checkout <a href="https://www.codechef.com/HBTU2020">Contest</a> and <a href="https://discuss.codechef.com/t/hbtu-cp-contest-1-codenovation/82664"> Editorial</a>.
 
-Codeforce ID :- <a href="https://codeforces.com/profile/Rohitpratap311">Rohitpratp311</a>
 
-### NOTES
+### Motive
+The main idea behind making these test cases public is to help anyone in debugging who is unable to find errors.
+
+
+### Notes
 <ul>
-  <li> <b>Syntax and Language :- </b></li>
-    <ol>
-      <li> All the problems will be in CPP </li>
-      <li> I will use templates to reduce extra typing </li>
-  </ol>
-  <br>
-  <li> <b>Problem Description :- </b> 
-<ol>
-  <li> File name will the problem code . Lets denote numerical part of a code by <b>X</b> and char part as <b>Y</b> </li>
-  <li> You can open the problem  with the problem code by replacing the problem code here "https://codeforces.com/problemset/problem/X/Y" </li>
-</ol>
-     e.g Code = 580C <br>  X=580 && Y=C <br> link = https://codeforces.com/problemset/problem/580/C </li>
-  </ul>
-  
+  <li> All the test case are available here.</li>
+  <li> Custom test cases can also be generated.</li>
+  <li> You can write a validator to copamare your output with correct output.</li>
+</ul>
 
-### Connect <a href="https://www.linkedin.com/in/rohitpratap311/">Rohit Pratap Singh</a>
+<strong>Thanks</strong>
