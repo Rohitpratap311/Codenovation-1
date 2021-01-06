@@ -1,0 +1,45 @@
+There is chaos in CODE-CITY, crime is everywhere and our superhero CHEF has to save the city.  The master-mind of these crimes is the gangsta named BUG. 
+
+Inorder to defeat Mr.BUG , CHEF has to enter the gangsta's secret vault and destroy everything he owns. The vault is highly gaurded and can be opened only by a secret passcode.
+
+CHEF has an Array of length $N$ and he has to pick all the $Ai (1<=i<=N)$ such that there is only one $Aj (1<=j<=N)$ which divides Ai. 
+
+More Formally :- 
+
+Find all the integers Ai (1<=i<=N) with the following property:
+
+For every integer Aj (1<=j<=N) such that i ? j , Aj does not divide Ai.
+
+The passcode is the sequence of these Integers arranged in $INCREASING$ order. 
+
+Your task is to find this passcode. 
+
+If there is no such $Ai$ , return $-1$.
+
+###Constrains:
+- $1<=N<=10^4$
+- $1<=Ai<=10^6$
+
+###Subtasks:
+- Subtask 1: Value of N doesn't exceed 1000  (15-points)
+- Subtask 2: No additional Constraints             (85-points)
+
+
+###Input:
+- First line contains an Integer N
+- Second line contains N space seperated Integers describing the array A.
+
+###Output:
+- IF there is a Passcode :Print the count(c) of Integers in the passcode in FIRST LINE and Print c space seperated Integers in the SECOND LINE
+- IF there is no passcode: Print -1
+
+###Sample Input:
+	6
+	4 5 6 2 7 11
+
+###Sample Output:
+	4
+	2 5 7 11
+
+###Explanation:
+- The Integers picked By CHEF are  5 2 7 ans 11. On arranging them in increasing order we have 2 5 7 11.

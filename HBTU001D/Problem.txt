@@ -1,0 +1,52 @@
+Ronin is going to HBTU for the first time . As Kanpur is strange city for him he asks a vendor for help , the vendor tells him the direction from his current location to his destination HBTU in the form of a string containing $N,S,E,W$ . 
+
+You are given the coordinates of current location of Ronin $(x,y)$ and the string containing the path e.g. $(NWSEWSWEN)$.
+
+N -> 1 unit towards North .
+
+S  -> 1 unit towards South .
+
+E  -> 1 unit towards East .
+
+W -> 1 unit towards West .
+
+Your task is to calculate the difference between distance and displacement of the path.
+
+Where distance is the length of the path told by the vendor and distance is minimum possible distance b/w starting and ending point.    
+
+###Input:
+
+- First line will contain $T$, number of test cases. Then the test cases follow. 
+- First line of each test case contains two integers $(x,y)$ , the starting point.
+- Second line of each test case contains a string  , the $path$. 
+
+###Output:
+For each test case, output in a single line answer the difference between distance and displacement.  
+
+###Constraints 
+- $1 \leq T \leq 1000$
+- $2 \leq x,y \leq 1000$
+- The maximum possible length of string is $100$.
+- String only contains $E,W,N,S$ .
+- Print the output up to $6$ digits of decimal. 
+
+###Sample Input :
+	1
+	2 2
+	EWNSNSNEWEE
+
+###Sample Output :
+	8.763932
+	
+###Explanation :
+
+In the given test case x=2 y=2 and the path is EWNSNSNEWEE
+
+From the paths we get the destination ( 4, 3 ).
+
+Therefore the displacement = 2.236068 and the distance is 11 . 
+
+Hence difference = 8.763932
+
+###NOTE :
+-  You have to print strictly  6 digits  after decimal ( not more or less ) and to not round off.

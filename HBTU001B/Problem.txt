@@ -1,0 +1,53 @@
+Aryan is a young boy who loves sports . One day his elder sister Ruhi decides to take her 
+to sports ground. After sometime Aryan asks her sister to play the game Multiple Jumps.
+
+Multiple Jumps is track field game in which a player has to reach the end point of a straight track by jumping only on Valid points and he/she must visit each Valid point .
+
+But Aryan is a young boy and he can only Jump from point A to point B if distance b/w A and B is less than or equal to $X$.
+
+Being a elder sister Ruhi decides to help Aryan in at most $P$ jumps if its has the distance greater than $X$.
+
+Your task is to find if Aryan can complete the game with his sisters help or not.
+
+
+###Input:
+
+- First line will contain $T$, number of test cases. Then the test cases follow. 
+- Each test case contains of a two line of input, in the first line three integers $N$ , number of points on the track $P$ , number of times Ruhi will help and  $X$.
+- Second line of each test case contains $N$ integers , the x - coordinates of valid points. 
+
+###Output:
+For each test case, output in a single  $YES$, if Aryan will complete the game or $NO$ if does not.
+
+###Constraints 
+- $1 \leq T \leq 100$
+- $1 \leq N \leq 10^5$
+- $ 0 \leq P \leq 10^5$
+- $ 1 \leq X \leq 10^5$
+- $ 1\leq A[i] \leq 10^5$ 
+- Aryan starts at 0 coordinate. 
+
+
+
+###Sample Input:
+	2
+	4 1 4
+	1 6 9 11
+	4 0 4
+	1 6 9 11
+###Sample Output:
+	$YES$
+	$NO$
+	
+###EXPLANATION:
+In the first case N=4 , P=1 , X=4
+
+Aryan is at 0 coordinate and he has to make jumps of distance 1 , 5 , 3 , 2 respectively.
+
+His limit is 4 so he can only take 3 valid jumps but will make a jump with Ruhi's help and will complete the game. 
+
+In the second case N=4 , P=0 , X=4
+
+Aryan is at 0 coordinate and he to make jumps of distance 1 , 5 , 3 , 2 respectively.
+
+His limit is 4 so he can only take 3 valid jumps and P=0 so Ruhi will not help him for any jump. Therefore he can not complete the game . 

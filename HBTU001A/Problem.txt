@@ -1,0 +1,30 @@
+Adi  is a famous  traveller . Now a days , he is in USA and has adapted himself accordingly . When he completed is USA tour he decided to visit Europe , Adi has planned his next tour but he forgot to acknowledge that date format in Europe $(DD/MM/YYY)$ is different from  USA $(MM/DD/YYYY)$. 
+
+But Adi is tired of journey and you are the only friend he trusts so he calls you for help.
+
+Being a good friend you agreed for helping him .Now your task is to write a program  which converts dates from US format to Europe format.
+
+
+###Input:
+
+- First line will contain $T$, number of testcases. Then the testcases follow. 
+- Each testcase contains of a single line of input, the date in the format $MM/DD/YYYY$. 
+
+###Output:
+For each testcase, output in a single line ,the date in the format $DD/MM/YYYY$.
+
+
+
+$NOTE:$ All the date will be valid.
+
+###Sample Input:
+	2
+	11/19/2019
+	07/26/1980
+	
+
+###Sample Output:
+	19/11/2019
+	26/07/1980
+	
+

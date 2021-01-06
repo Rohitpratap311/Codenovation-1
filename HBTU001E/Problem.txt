@@ -1,0 +1,50 @@
+There are n children with indices $1$ to $n$. The $i$th child has a bag which can hold $Ai$ candies. We have m packets of candies . The $ith$ packet contains $Bi$ candies. Now for each packet we start distributing candies to the children starting from index 1. When the $i$th child bag gets fully filled we continue distributing candies  to the $( i+1)$ th child until all the candies from the choosen packet gets finished or no more children are left.
+
+For every packet of candies print the total number of children whose bag gets fully filled.
+
+Answer for each packet is separate.
+###Input:
+- The first line of the input contains a single integer $T$ denoting the number of test cases. The description of $T$ test cases follows.
+- The first line of each test case contains two integers $N$ and $M$.
+- The second line contains $N$ space-separated integers $A1  , A2,…..,AN$.
+- The third line contains $M$ space-separated integers $B1 , B2,……,BN$.
+
+###Output:
+- For each test case, print a single line containing $M$ integers ? the total number of children whose bag gets fully filled.
+
+###Constraints:
+- $1 = T = 1000$
+- $1 = N ,M = 10^5$
+- $1 = Ai  = 10^5$
+- $1 = Bi  = 10^5$
+- Sum of $ N$ or $M$ doesn’t exceed $10^5$ for all test cases.
+
+###Subtasks:
+- Subtask #1 $(30 points)$ : $N = 1000$ , $M =1000$.  
+
+- Subtask #2 ($70 points)$ : Original Constraints.
+
+
+###Sample Input:
+	2
+	4 4
+	5 8 10 16
+	2 6 13 40	
+	2 3
+	8 3
+	12 7 100
+
+###Sample Output:
+	0 1 2 4
+	2 0 2
+
+###Explanation:
+- Example case 1: 
+
+For B1= 2 We can give 2 candies only to first child. So no child gets his bag fully filled.
+
+For B2 = 6. We can give 5 candies to child 1 and then we are left with 1 candy which we will give to child 2. So only first child gets his bag fully filled.
+
+For B3= 13   We can give 5 candies to child 1 and then we are left with 8 candy then we will give 8 candies to child 2 and then no candies are left. So two children gets their bag fully filled.
+
+For B4= 40   We can give 5 candies to child 1 and then we are left with 35 candy then we will give 8 candies to child 2 and then we are left with 37 candies and then we will give 10 candies to child 3 and then we are left with 17 candies. At last we will give 16 candies to the last child So all children gets their bag fully filled.

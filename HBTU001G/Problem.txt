@@ -1,0 +1,47 @@
+You are given a very big integer and you have to perform the following operation EXACTLY once on the integer.
+
+Operation is as follow:
+
+ "Remove a non-empty substring of (consecutive) digits from the integer and close the gap between them".
+
+It is allowed for resultant integer to contain leading zeros. If you removes all digits, the resultant integer is considered to be 0.
+
+You need to calculate the sum of all possible resultant integer after performing the operation JUST ONCE. 
+
+Since the answer can be very large, print it modulo $10^9+7$.
+
+
+###Input:
+The first and only line contains a single integer .
+
+###Output:
+In the only line print the required sum modulo 10 ^9 +7.
+
+###Constraints:
+1 <= N < 10^10^5 
+
+
+###Subtasks
+- Subtask 1 (10 points): 1 <= N <10^18
+- Subtask 2 (20 points): 1 <= N< 10^100
+- Subtask 3 (70 points): original constraint
+
+###Sample Input1:
+	107
+
+###Sample Output1:
+	42
+
+###Sample Input2:
+	100500100500
+
+###Sample Output2:
+	428101984
+
+###Explanation:
+- N=107
+
+Sum of all possible numbers after only one operation 1+7+10+07+17 = 42
+
+42 % (10^9+7) =42  
+
