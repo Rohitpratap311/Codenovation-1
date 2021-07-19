@@ -1,7 +1,7 @@
 # Codenovation-1
 This repository contains the all the problems and solutions of the the contest <a href="https://www.codechef.com/HBTU2020">CODENOVATION-1</a>
 <br><br>
-This is the <strong>first</strong> official contest hosted by <strong>HBTU</strong> at <strong>CodeChef</strong> organised by <a href="https://www.codechef.com/campus_chapter/HBTU">CodeChef HBTU Chapter</a>
+This is the <strong>first</strong> official contest hosted by <strong>HBTU</strong> at <strong>CodeChef</strong> organised by <a href="https://www.codechef.com/campus_chapter/HBTU_Chapter">CodeChef HBTU Chapter</a>
 <br><br>
 You can checkout <a href="https://www.codechef.com/HBTU2020">Contest</a> and <a href="https://discuss.codechef.com/t/hbtu-cp-contest-1-codenovation/82664"> Editorial</a>.
 
